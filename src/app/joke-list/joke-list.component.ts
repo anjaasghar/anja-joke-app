@@ -7,7 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JokeListComponent implements OnInit {
 
-  constructor() { }
+jokes = [];
+
+  constructor() {
+    this.jokes = [
+  {setup:"aaa",
+   punchline:"111"
+  },
+{setup:"bbb",
+ punchline: "222"
+},
+{setup:"ccc",
+ punchline: "333"
+},
+{setup:"ddd",
+ punchline: "444"
+}
+];
+   }
 
   ngOnInit() {
   }
